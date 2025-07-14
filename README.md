@@ -77,7 +77,7 @@ Endpoint	Method	Description
 # 📷 Screenshots
 Add screenshots of your UI here, like:
 # Homepage
-
+![image alt](https://github.com/Priti2207/pickandpay-project/blob/21efb1fc11bbe097e8be87dff770bc2c26a7564c/Screenshot%202025-07-14%20171201.png)
 # Login/Register
 ![image alt](https://github.com/Priti2207/pickandpay-project/blob/82fc7941b67c12bdd6ad7d5880403ecc449def05/Screenshot%202025-07-07%20203513.png)
 # Admin dashboard
