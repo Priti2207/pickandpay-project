@@ -51,7 +51,7 @@ Configure application.properties with your MySQL DB credentials:
 properties
 Copy
 Edit
-spring.datasource.url=jdbc:mysql://localhost:8080/pickandpay
+spring.datasource.url=jdbc:mysql http://localhost:8080/pickandpay
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
