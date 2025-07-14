@@ -88,8 +88,8 @@ Add screenshots of your UI here, like:
 ![image alt](https://github.com/Priti2207/pickandpay-project/blob/4be1b46f4288fdced8f0057c73ad4b77fdb2d440/Screenshot%202025-07-14%20151251.png)
 # cart page
 ![image alt](https://github.com/Priti2207/pickandpay-project/blob/9b1ebcc4acfd4df8a13b4428e28ee8185ffdd478/Screenshot%202025-07-14%20151314.png)
-# order page
-
+# admin dashboard page
+![image alt](https://github.com/Priti2207/pickandpay-project/blob/2653bc3c8873584d176b9c40b570c6f9f22e604a/Screenshot%202025-07-14%20151429.png)
 
 
 
