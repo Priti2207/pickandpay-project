@@ -75,7 +75,7 @@ Endpoint	Method	Description
 /api/order/place	POST	Place an order
 
 # 📷 Screenshots
-Add screenshots of your UI here, like:
+
 # Homepage
 ![image alt](https://github.com/Priti2207/pickandpay-project/blob/21efb1fc11bbe097e8be87dff770bc2c26a7564c/Screenshot%202025-07-14%20171201.png)
 # Login/Register
