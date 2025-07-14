@@ -1,0 +1,33 @@
+<!-- src/app/product/product.html -->
+
+<!-- Product Detail View -->
+<div *ngIf="selectedProduct; else productList" class="product-detail">
+  <img [src]="'http://localhost:8080/images/' + selectedProduct.image" alt="{{ selectedProduct.name }}" class="product-image" />
+  <h2>{{ selectedProduct.name }}</h2>
+  <p>{{ selectedProduct.description }}</p>
+  <strong>Price: ₹{{ selectedProduct.price }}</strong><br />
+  <button (click)="addToCart(selectedProduct)">🛒 Add to Cart</button>
+  <button (click)="addToWishlist(selectedProduct)">❤️ Add to Wishlist</button>
+  <br /><br />
+  <button (click)="backToList()">🔙 Back</button>
+</div>
+
+<!-- Product List View -->
+<ng-template #productList>
+
+  <!-- ✅ Removed the internal search bar here -->
+
+  <div class="product-grid">
+    <div *ngFor="let product of filteredProducts" class="product-card">
+      <img [src]="'http://localhost:8080/images/' + product.image" alt="{{ product.name }}" class="product-image" />
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <strong>₹{{ product.price }}</strong>
+      <div class="btn-group">
+        <button (click)="addToCart(product)">🛒</button>
+        <button (click)="addToWishlist(product)">❤️</button>
+        <button (click)="viewProduct(product.id)">🔍 View</button>
+      </div>
+    </div>
+  </div>
+</ng-template>

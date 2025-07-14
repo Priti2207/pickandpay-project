@@ -1,0 +1,71 @@
+.order-container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.order-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.order-image {
+  width: 180px;
+  margin: 20px 0;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.place-btn, .cancel-btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.place-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.place-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #b02a37;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #777;
+}

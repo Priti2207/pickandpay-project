@@ -1,0 +1,20 @@
+<div class="form-container" *ngIf="user; else noUser">
+  <h2>My Profile</h2>
+  <form (submit)="update(); $event.preventDefault()">
+    <input type="text" [(ngModel)]="user.name" name="name" placeholder="Name" required />
+    <input type="email" [(ngModel)]="user.email" name="email" placeholder="Email" required />
+     <input type="text" [(ngModel)]="user.mobile" name="mobile" placeholder="Mobile" required />
+    <input [type]="hidePassword ? 'password' : 'text'" [(ngModel)]="user.password" name="password" placeholder="Password" required />
+    <input type="text" [(ngModel)]="user.address" name="address" placeholder="Address" required />
+    <button type="button" (click)="togglePassword()">🙈 Show/Hide</button>
+    <button type="submit">Update</button>
+    <button type="button" (click)="logout()" style="background-color: red;">Logout</button>
+  </form>
+</div>
+
+<ng-template #noUser>
+  <div class="form-container">
+    <h2>No user found</h2>
+    <p>Please <a routerLink="/login">Login</a> or <a routerLink="/register">Register</a> first.</p>
+  </div>
+</ng-template>

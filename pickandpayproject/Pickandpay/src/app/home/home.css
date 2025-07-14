@@ -1,0 +1,119 @@
+/* 🔵 Full-page Background */
+.full-bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), 
+    url('http://localhost:8080/images/homebg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 50px;
+}
+
+/* 🟢 Hero Section */
+.hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero .brand {
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.shop-btn {
+  background-color: purple;
+  color: black;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.3);
+  transition: background 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #0097a7;
+}
+
+/* 🔸 Generic Section */
+.section {
+  margin: 40px auto;
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* 🔹 Category Buttons */
+.categories button {
+  background-color: #d4002e;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  margin: 8px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(7, 212, 0, 0.4);
+  transition: background 0.3s ease;
+}
+
+.categories button:hover {
+  background-color: #0097a7;
+}
+
+/* 🔻 Footer */
+footer {
+  margin-top: 40px;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 0.95rem;
+  background-color:black(74, 34, 34, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ✨ Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  } to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
