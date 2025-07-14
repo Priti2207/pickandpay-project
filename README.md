@@ -81,7 +81,7 @@ Add screenshots of your UI here, like:
 # Login/Register
 ![image alt](https://github.com/Priti2207/pickandpay-project/blob/82fc7941b67c12bdd6ad7d5880403ecc449def05/Screenshot%202025-07-07%20203513.png)
 # Admin dashboard
-
+![image alt](https://github.com/Priti2207/pickandpay-project/blob/57c8e5013c8c2db65f791c7df8ea62d82da78102/Screenshot%202025-07-14%20151346.png)
 # product page
 
 # wishlist page
