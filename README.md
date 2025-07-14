@@ -85,7 +85,7 @@ Add screenshots of your UI here, like:
 # product page
 ![image alt](https://github.com/Priti2207/pickandpay-project/blob/64e5b0be92f936a30182dd3ce24fab356873ac22/Screenshot%202025-07-14%20151500.png)
 # wishlist page
-
+![image alt](https://github.com/Priti2207/pickandpay-project/blob/4be1b46f4288fdced8f0057c73ad4b77fdb2d440/Screenshot%202025-07-14%20151251.png)
 # cart page
 
 # order page
